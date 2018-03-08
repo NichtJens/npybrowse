@@ -1,6 +1,6 @@
 # npybrowse
 .npy file browser using wxPython
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" alt="Screenshot" width="70%">
 
 
