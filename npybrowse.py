@@ -211,7 +211,7 @@ class PlotListFrame(wx.Frame):
                 state_log = self.pltpan.toolbar.get_state_log()
                 norm = LogNorm() if state_log else None
 
-                img = self.pltpan.imshow(A, origin="bottom", interpolation="none", norm=norm)
+                img = self.pltpan.imshow(A, origin="lower", interpolation="none", norm=norm)
 #                img = self.pltpan.pcolormesh(A, norm=norm)
 
                 state_colorbar = self.pltpan.toolbar.get_state_colorbar()
